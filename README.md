@@ -8,25 +8,6 @@ The dataset includes a total of 32 batteries at 4 different temperatures, i.e., 
 1. We quantify the initial manufacturing variabilities (IMVs) as the step-wise charge acceptance before actual cycling, useful for early battery prototype verification of long-term performance even before noticeable degradation onset.
 2. We adopt an actual electric vehicle charging in wide temperature regions for better translation from the verification result from the verification stage to practical use, bridging the gap between novel battery composition designs and manufacturing realities. 
 3. Internal battery loss (i.e., thermodynamics and kinetics) and polarization types (i.e., concentration polarization and others), can be decoupled only using accessible electric signals, otherwise requiring costly and lengthy characterizations, thanks to multi-step charging dynamics and transition processes.
-
-Charging details	Time duration (min)	State of Charge (SOC)
-Step1: Rest	30.00	
-Step2: 0.33CRPT CC to 2.5V	-	
-Step3: Rest 	30.00	
-Step4: 0.33CRPT CC to U1	14.54	+8.0%
-Step5: 3.00CRPT CC to U2	2.40	+12.0%
-Step6: 2.90CRPT CC to U3	2.07	+10.0%
-Step7: 2.80CRPT CC to U4	2.14	+10.0%
-Step8: 2.40CRPT CC to U5	2.50	+10.0%
-Step9: 2.00CRPT CC to U6	3.00	+11.1%
-Step10: 1.80CRPT CC to U7	3.33	+10.0%
-Step11: 1.40CRPT CC to U8	4.29	+10.0%
-Step12: 0.33CRPT CC to U9	28.93	+15.9%
-Step13: Rest	120.00	Summation: 97%
-Step14: 1CRPT CC to (U10)	56.40	-94%
-Step15: Rest	60.00	
-Step16: Repeat	Steps 2 to 14 are repeated 3 times. The mean values of the 
-(U1-U9) are taken as cut-off voltages for subsequent cycling.
-![image](https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/assets/161430150/59e750d2-b456-4018-bf26-4096981386f0)
-
+## Access
+Find the dataset [here](https://zenodo.org/uploads/10715209).
 
