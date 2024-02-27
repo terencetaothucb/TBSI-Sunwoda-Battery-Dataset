@@ -7,11 +7,11 @@ The dataset includes a total of 32 batteries at 4 different temperatures, i.e., 
 1. We quantify the initial manufacturing variabilities (IMVs) as the step-wise charge acceptance before actual cycling, useful for early battery prototype verification of long-term performance even before noticeable degradation onset.
 2. We adopt an actual electric vehicle charging in wide temperature regions for better translation from the verification result from the verification stage to practical use, bridging the gap between novel battery composition designs and manufacturing realities. 
 3. We decouple internal battery loss (i.e., thermodynamics and kinetics) and polarization types (i.e., concentration polarization and others) only using accessible electric signals, otherwise requiring costly and lengthy characterizations, thanks to multi-step charging dynamics and transition processes.
-## Animals
-ID | Taxonomy | Description | Physical meaning 
-|---|---|---|---|
-|1|2|3|4|
+## Featurization
+The featurization taxonomy is designed to link statistical features derived from accessible electric signals to the physical meaning of chemical processes. Prior- and in-cycle features are extracted to characterize （IMVs） before cycling and chemical process evolution during cycling. The in-cycle features are split into inter- and intra-step step features thanks to the rich dynamic information provided by multi-step charging schemes. The features are briefly listed below.
+1. 
+
 
 ## Access
-Acce the dataset [here](https://zenodo.org/uploads/10715209). 
+Access the dataset [here](https://zenodo.org/uploads/10715209). 
 
