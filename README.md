@@ -8,9 +8,10 @@ The dataset includes a total of 32 batteries at 4 different temperatures, i.e., 
 1. We quantify the initial manufacturing variabilities (IMVs) as the step-wise charge acceptance before actual cycling, useful for early battery prototype verification of long-term performance even before noticeable degradation onset.
 2. We adopt an actual electric vehicle charging in wide temperature regions for better translation from the verification result from the verification stage to practical use, bridging the gap between novel battery composition designs and manufacturing realities. 
 3. We decouple internal battery loss (i.e., thermodynamics and kinetics) and polarization types (i.e., concentration polarization and others) only using accessible electric signals, otherwise requiring costly and lengthy characterizations, thanks to multi-step charging dynamics and transition processes.
-### Animals
-**ID | Taxonomy | Description | Physical meaning | **
+## Animals
+ID | Taxonomy | Description | Physical meaning ｜
 |---|---|---|---|
+|1|2|3|4|
 
 ## Access
 Acce the dataset [here](https://zenodo.org/uploads/10715209). 
