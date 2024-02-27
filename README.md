@@ -8,5 +8,3 @@ The dataset includes a total of 32 batteries at 4 different temperatures, i.e., 
 1. We quantify the initial manufacturing variabilities (IMVs) as the step-wise charge acceptance before actual cycling, useful for early battery prototype verification of long-term performance.
 2. We adopt an actual electric vehicle charging in wide temperature regions for better translation from the verification result from the verification stage to practical use. 
 3. Internal battery loss types (i.e., thermodynamics and kinetics) and polarization types (i.e., concentration polarization and others), can be decoupled from accessible electric signals, otherwise requiring costly and lengthy characterizations, thanks to multiple charging dynamics.
-
-![image](https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/assets/161430150/852af632-2894-467b-bdcc-4fe8a7c3fbc4)
