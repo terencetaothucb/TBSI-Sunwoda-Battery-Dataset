@@ -1,4 +1,4 @@
-# TBSI Sunwoda Battery Dataset
+![image](https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/assets/161430150/60fc8536-fcdb-48c6-aeb3-5d814c4a14d3)# TBSI Sunwoda Battery Dataset
 ## Preamble
 Sunwoda Electronic Co., Ltd, generates the TBSI Sunwoda Battery Dataset to verify the performance of novel battery material composition designs. The collaboration team at Tsinghua Berkeley Shenzhen Institute (TBSI) performs the main research work by providing an efficient and reliable early battery prototype verification methodology. We open-source this dataset to inspire more diversified data-driven, physics-informed battery management research and real-world applications, including, but not limited to, state of charge (SOC) estimation, state of health (SOH) estimation, remaining useful life (RUL) prediction, degradation trajectory prediction, consistency management, and thermal management. 
 ## Description
@@ -7,7 +7,11 @@ The dataset includes a total of 32 batteries at 4 different temperatures, i.e., 
 ## Highlights
 1. We quantify the initial manufacturing variabilities (IMVs) as the step-wise charge acceptance before actual cycling, useful for early battery prototype verification of long-term performance even before noticeable degradation onset.
 2. We adopt an actual electric vehicle charging in wide temperature regions for better translation from the verification result from the verification stage to practical use, bridging the gap between novel battery composition designs and manufacturing realities. 
-3. Internal battery loss (i.e., thermodynamics and kinetics) and polarization types (i.e., concentration polarization and others), can be decoupled only using accessible electric signals, otherwise requiring costly and lengthy characterizations, thanks to multi-step charging dynamics and transition processes.
+3. We decouple internal battery loss (i.e., thermodynamics and kinetics) and polarization types (i.e., concentration polarization and others) only using accessible electric signals, otherwise requiring costly and lengthy characterizations, thanks to multi-step charging dynamics and transition processes.
+### Animals
+**ID | Taxonomy | Description | Physical meaning | **
+|---|---|---|---|
+
 ## Access
-Find the dataset [here](https://zenodo.org/uploads/10715209).
+Acce the dataset [here](https://zenodo.org/uploads/10715209). 
 
