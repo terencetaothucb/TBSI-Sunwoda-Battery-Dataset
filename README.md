@@ -41,7 +41,7 @@ The featurization taxonomy is designed to link statistical features derived from
 7. Mean value of voltage gradient at each charging step (Vg1-Vg9). The physical meaning is the polarization speed at each charging step (SOC region). Rvg is defined as the ratio of Vg2 and Vg1.
 8. Charging capacity value when assigned SOC is hit at each charging step (Q1-Q9). The physical meaning is the charge acceptance at each charging step (SOC region).
 9. Ratio of voltage and charging current at each charging step (RL1-RL9). The physical meaning is the merged representation, i.e., lumped resistance, of ohmic, electrochemical, and concentration resistance at each charging step (SOC region).
-10. Ratio of voltage change and current change at switching points between steps (RO1-RO9). The physical meaning is the ohmic resistance fron relaxation behaviours.
+10. Ratio of voltage change and current change at switching points between steps (RO1-RO8). The physical meaning is the ohmic resistance fron relaxation behaviours.
 
 
 
