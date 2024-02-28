@@ -20,7 +20,9 @@ Step | C-rate | Time(min) | SOC(%) |
 |13|-|120.00|Summation: 97.0|
 |14|-1.00|56.40|-94.0|
 |15|-|60.00|-|
-
+#### Charging visualization
+The Video is for easy visualization and comparison of the internal lithium-ion concentration under multi-step fast charging and constant charging, respectively. We highlight that multi-step fast charging can provide rich degradation-informed information by exciting the thermodynamics (small current region) and kinetics (large current region), respectively, thus being favorable for operando degradation characterization.
+https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/assets/161430150/b49d7d71-4f59-4fb6-bf09-7d61a8c0bc2b
 
 The dataset includes a total of 32 batteries at 4 different temperatures, i.e., 25, 35, 45, and 55 Celsius degrees, respectively. 9 batteries are for both 25 and 35 Celsius degrees, respectively. 7 batteries are for both 45 and 55 Celsius degrees, respectively. The dataset covers a lifetime from 480 to 1025 cycles when the end-of-life is defined by the cycle index when real capacity hits 80% of the nominal capacity. The average lifetime of all batteries is 775 cycles with a standard deviation of 175 cycles. 
 ## Highlights
