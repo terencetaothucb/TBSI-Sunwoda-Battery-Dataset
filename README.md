@@ -42,10 +42,6 @@ The featurization taxonomy is designed to link statistical features derived from
 8. Charging capacity value when assigned SOC is hit at each charging step (Q1-Q9). The physical meaning is the charge acceptance at each charging step (SOC region).
 9. Ratio of voltage and charging current at each charging step (RL1-RL9). The physical meaning is the merged representation, i.e., lumped resistance, of ohmic, electrochemical, and concentration resistance at each charging step (SOC region).
 10. Ratio of voltage change and current change at switching points between steps (RO1-RO8). The physical meaning is the ohmic resistance fron relaxation behaviours.
-
-
-
-
 ## Access
-Access the dataset [here](https://zenodo.org/uploads/10715209). The dataset is under the MIT licence [here](https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/blob/main/LICENSE).
+Access the raw dataset [here](https://zenodo.org/uploads/10715209). Alternatively, you can simply use the [processed features](https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/blob/main/Features.xlsx) and [labels](https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/blob/main/Labels.xlsx) for relavent studies. The dataset is under the MIT licence [here](https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/blob/main/LICENSE).
 
