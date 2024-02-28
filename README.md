@@ -26,6 +26,10 @@ The Video is for easy visualization and comparison of the internal lithium-ion c
 https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/assets/161430150/b49d7d71-4f59-4fb6-bf09-7d61a8c0bc2b
 
 The dataset includes a total of 32 batteries at 4 different temperatures, i.e., 25, 35, 45, and 55 Celsius degrees, respectively. 9 batteries are for both 25 and 35 Celsius degrees, respectively. 7 batteries are for both 45 and 55 Celsius degrees, respectively. The dataset covers a lifetime from 480 to 1025 cycles when the end-of-life is defined by the cycle index when real capacity hits 80% of the nominal capacity. The average lifetime of all batteries is 775 cycles with a standard deviation of 175 cycles. 
+
+You can visualize the votage response under fast-charging in selected lifetime cycles using [this](https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/blob/main/Visual_Voltage_Capacity.m) code. Here we select the first battery under each temperature to make an illustration, where degradation information can be derived from multi-step transitions.
+![Demo](https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/assets/161430150/3acdb47c-a785-4e10-9bb2-f21413339fe8)
+
 ## Highlights
 1. We quantify the initial manufacturing variabilities (IMVs) as the step-wise charge acceptance before actual cycling, useful for early battery prototype verification of long-term performance even before noticeable degradation onset.
 2. We adopt an actual electric vehicle charging in wide temperature regions for better translation from the verification result from the verification stage to practical use, bridging the gap between novel battery composition designs and manufacturing realities.
