@@ -46,14 +46,6 @@ The featurization taxonomy is designed to link statistical features derived from
 
 
 
-
-
-
-
-
-
-
-
 ## Access
-Access the dataset [here](https://zenodo.org/uploads/10715209). 
+Access the dataset [here](https://zenodo.org/uploads/10715209). The dataset is under the MIT licence [here](https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/blob/main/LICENSE).
 
