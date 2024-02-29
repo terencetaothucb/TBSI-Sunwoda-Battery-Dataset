@@ -48,6 +48,8 @@ The [featurization taxonomy](https://github.com/terencetaothucb/TBSI-Sunwoda-Bat
 10. Ratio of voltage change and current change at switching points between steps (RO1-RO8). The physical meaning is the ohmic resistance fron relaxation behaviours.
 
 Simply run [this](https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/blob/main/Gen_Feature.m) code to featurize the [processed dataset](https://zenodo.org/uploads/10715209) and output the [processed features](https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/blob/main/Features.xlsx) for easy readability and access.
-
+#### Instruction
+1. To visualize the dataset, you put the .mat files in [RawData.zip](https://zenodo.org/uploads/10715209) and [Visual_Voltage_Capacity.m](https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/blob/main/Visual_Voltage_Capacity.m) under the same directory and run the Visual_Voltage_Capacity.m script.
+2. To featurize (curtail) the dataset, you put the .mat files in [ProcessedData.zip](https://zenodo.org/uploads/10715209), [Gen_Feature.m](https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/blob/main/Gen_Feature.m), [LoadFeature.m](https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/blob/main/LoadFeature.m), [calculate_slopes.m](https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/blob/main/calculate_slopes.m), and [OutData.m](https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/blob/main/OutData.m) under the same directory. Simply run (modify) the Gen_Feature.m script.
 ## Access
-Access the raw and processed datasets [here](https://zenodo.org/uploads/10715209) under the [MIT licence](https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/blob/main/LICENSE).
+Access the raw and processed datasets [here](https://zenodo.org/uploads/10715209) under the [MIT licence](https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/blob/main/LICENSE). Correspondence to [Terence (Shengyu) Tao](terencetaotbsi@gmail.com) and CC to Prof. [Xuan Zhang](xuanzhang@sz.tsinghua.edu.cn) and [GuangminZhou](guangminzhou@sz.tsinghua.edu.cn) when you use, or have any inquiries.
