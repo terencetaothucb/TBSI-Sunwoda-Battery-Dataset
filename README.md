@@ -27,7 +27,7 @@ https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/assets/161430150
 
 The dataset includes a total of 32 batteries at 4 different temperatures, i.e., 25, 35, 45, and 55 Celsius degrees, respectively. 9 batteries are for both 25 and 35 Celsius degrees, respectively. 7 batteries are for both 45 and 55 Celsius degrees, respectively. The dataset covers a lifetime from 480 to 1025 cycles when the end-of-life is defined by the cycle index when real capacity hits 80% of the nominal capacity. The average lifetime of all batteries is 775 cycles with a standard deviation of 175 cycles. 
 
-You can visualize the votage response under fast-charging in selected lifetime cycles of the [raw dataset](https://zenodo.org/uploads/10715209) using [this](https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/blob/main/Visual_Voltage_Capacity.m) code. Here we select the first battery under each temperature to make an illustration, where degradation information can be derived from multi-step transitions.
+You can visualize the voltage response under fast-charging in selected lifetime cycles of the [raw dataset](https://zenodo.org/uploads/10715209) using [this](https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/blob/main/Visual_Voltage_Capacity.m) code. Here we select the first battery under each temperature to make an illustration, where degradation information can be derived from multi-step transitions.
 ![Demo](https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/assets/161430150/3acdb47c-a785-4e10-9bb2-f21413339fe8)
 
 ## Highlights
@@ -45,7 +45,7 @@ The [featurization taxonomy](https://github.com/terencetaothucb/TBSI-Sunwoda-Bat
 7. Mean value of voltage gradient at each charging step (Vg1-Vg9). The physical meaning is the polarization speed at each charging step (SOC region). Rvg is defined as the ratio of Vg2 and Vg1.
 8. Charging capacity value when assigned SOC is hit at each charging step (Q1-Q9). The physical meaning is the charge acceptance at each charging step (SOC region).
 9. Ratio of voltage and charging current at each charging step (RL1-RL9). The physical meaning is the merged representation, i.e., lumped resistance, of ohmic, electrochemical, and concentration resistance at each charging step (SOC region).
-10. Ratio of voltage change and current change at switching points between steps (RO1-RO8). The physical meaning is the ohmic resistance fron relaxation behaviours.
+10. Ratio of voltage change and current change at switching points between steps (RO1-RO8). The physical meaning is the ohmic resistance from relaxation behaviours.
 
 Simply run [this](https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/blob/main/Gen_Feature.m) code to featurize the [processed dataset](https://zenodo.org/uploads/10715209) and output the [processed features](https://github.com/terencetaothucb/TBSI-Sunwoda-Battery-Dataset/blob/main/Features.xlsx) for easy readability and access.
 #### Instruction
